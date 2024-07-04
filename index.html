@@ -2,18 +2,13 @@
 <html lang="fr"> <!-- Ajout de l'attribut "lang" pour la langue en français -->
 
 <head>
-	<!-- Titre de la page -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina CARDUCCI - Photographe professionnelle de cérémonie et événementiel</title> <!-- Ajout du titre -->
-
-	<!-- Balises Meta pour le SEO -->
 	<meta name="description"
 		content="Photographe professionnelle spécialisée dans les portraits, mariages et événements. Découvrez mon portfolio et contactez-moi pour plus d'informations.">
-	<!-- Ajout de la balise "<meta>" pour la description de la page (importante pour le SEO) -->
 	<meta name="keywords" content="photographe, photographie, portfolio, studio photo, nom de la ville">
-	<!-- Ajout de la balise "<meta>" pour les mots-clés de la page -->
 	<meta name="author" content="Nina Carducci">
-	<!-- Ajout de la balise "<meta>" pour l'auteur de la page -->
-
 	<!-- Balises Meta pour les réseaux sociaux Open Graph (Facebook et Instagram) -->
 	<meta property="og:title" content="Nina Carducci - Photographe">
 	<meta property="og:description"
@@ -24,7 +19,6 @@
 	<meta property="og:image:width" content="1200">
 	<meta property="og:image:height" content="630">
 	<meta property="og:site_name" content="Nina Carducci - Photographe">
-
 	<!-- Balises Meta pour les cartes Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Nina Carducci - Photographe">
@@ -32,38 +26,20 @@
 		content="Photographe professionnelle spécialisée dans les portraits, mariages et événements. Découvrez mon portfolio et contactez-moi pour plus d'informations.">
 	<meta name="twitter:image" content="https://constantin-d.github.io/P9-Nina-Carducci/assets/images/nina-740px.webp">
 	<meta name="twitter:image:alt" content="Description de l'image pour les utilisateurs avec déficiences visuelles">
-
-	<!-- Balise Meta pour la compatibilité mobile +  Essentielle pour le responsive design -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- Balise Meta pour le jeu de caractères + pour une compatibilité maximale -->
-	<meta charset="UTF-8">
-
-	<!-- Favicon -->
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
 	<link rel="manifest" href="assets/images/site.webmanifest">
-
-	<!-- Liens vers les feuilles de style CSS -->
-	<!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css"> -->
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<!-- Lien vers la feuille de style CSS minifiée -->
-	<link rel="stylesheet" href="./assets/style.min.css">
-	<!-- <link rel="stylesheet" href="./assets/style.css"> -->
-
-	<!-- Balise Canonique qui informe les moteurs de recherche de l'URL principale ou préférée de la page -->
 	<link rel="canonical" href="https://constantin-d.github.io/P9-Nina-Carducci/">
-
-	<!-- Préconnexion pour optimiser le chargement des polices -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-
-	<!-- Rich Snippets JSON-LD pour Local Business -->
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
+	<!-- Balise JSON-LD pour le référencement local -->
 	<script type="application/ld+json">
 	    {
 	      "@context": "https://schema.org",
@@ -90,7 +66,8 @@
 	          "Friday"
 	        ],
 	        "opens": "10:00",
-	        "closes": "19:00"
+	        "closes": "19:00",
+			"priceRange": "€€€"
 	      },
 	      "sameAs": [
 	        "https://www.instagram.com/ninacarducci.photo/"	      
@@ -109,13 +86,13 @@
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="Instagram" width="40" height="40" style="max-width: 100%; height: auto;"></a></li>
-				<!-- Ajout de l'attribut "alt" pour l'image Instagram -->
+						target="_blank"><img src="assets/images/instagram.png" alt="Instagram" width="40" height="40"
+							style="max-width: 100%; height: auto;"></a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<section id="header"> <!-- utilisation de la balise "<section>" pour la sémantique -->
+		<section id="header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -133,8 +110,8 @@
 							<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-740px.webp"
 								media="(max-width: 1200px)" type="image/webp">
 							<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1900px.webp"
-								class="d-block w-100" alt="Un homme d'affaire marchant sur un passage pieton" width="1900" height="878" style="max-width: 100%; height: auto;">
-							<!-- Ajout de l'attribut "alt" pour l'image du carousel -->
+								class="d-block w-100" alt="Un homme d'affaire marchant sur un passage pieton"
+								width="1900" height="878" style="max-width: 100%; height: auto;">
 						</picture>
 					</div>
 					<div class="carousel-item">
@@ -144,8 +121,8 @@
 							<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-740px.webp"
 								media="(max-width: 1200px)" type="image/webp">
 							<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1900px.webp"
-								class="d-block w-100" alt="Image du public d'un concert" width="1900" height="878" style="max-width: 100%; height: auto;">
-							<!-- Ajout de l'attribut "alt" pour l'image du carousel -->
+								class="d-block w-100" alt="Image du public d'un concert" width="1900" height="878"
+								style="max-width: 100%; height: auto;">
 						</picture>
 					</div>
 					<div class="carousel-item">
@@ -155,8 +132,8 @@
 							<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-740px.webp"
 								media="(max-width: 1200px)" type="image/webp">
 							<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1900px.webp"
-								class="d-block w-100" alt="Image de jeunes mariés qui dancent" width="1900" height="878" style="max-width: 100%; height: auto;">
-							<!-- Ajout de l'attribut "alt" pour l'image du carousel -->
+								class="d-block w-100" alt="Image de jeunes mariés qui dancent" width="1900" height="878"
+								style="max-width: 100%; height: auto;">
 						</picture>
 					</div>
 				</div>
@@ -172,18 +149,16 @@
 				</button>
 			</div>
 		</section>
-
 		<section id="about">
 			<div class="picture left">
-				<img src="assets/images/nina-740px.webp" alt="Nina Carducci" width="740" height="736" style="max-width: 100%; height: auto;">
-				<!-- Ajout de l'attribut "alt" pour l'image de Nina Carducci -->
+				<img src="assets/images/nina-740px.webp" alt="Nina Carducci" width="740" height="736"
+					style="max-width: 100%; height: auto;">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
-				<!-- Changement de la balise "<h3>" à "<h2>" pour le titre -->
 				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-					immortels, voilà ce qui me fait vibrer.</p> <!-- Changement de la balise "<h6>" à "<p>" -->
+					immortels, voilà ce qui me fait vibrer.</p>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
 					le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
 					yeux, ou le partager au plus grand nombre.
@@ -192,10 +167,8 @@
 					bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
 		</section>
-
 		<section id="gallery">
 			<h2 class="title">Portfolio</h2>
-			<!-- Changement de la balise "<h3>" à "<h2>" pour le titre -->
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item"
@@ -208,8 +181,8 @@
 						src="assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-740px.webp"
 						alt="Réunion d'entreprise" width="740" height="500" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						src="assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-740px.webp"
-						alt="Mariage" width="740" height="591" />
+						src="assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-740px.webp" alt="Mariage"
+						width="740" height="591" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-740px.webp"
 						alt="Portrait d'un musicien" width="740" height="1109" />
@@ -225,7 +198,6 @@
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-740px.webp"
 						alt="Entreprise" width="740" height="453" />
-					<!-- Ajout de l'attribut "alt",description pour toutes les images de la galerie-->
 				</div>
 			</div>
 			<div class="quote">
@@ -234,16 +206,14 @@
 						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 							fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 							n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la
-							vérité.</p> <!-- Changement de la balise "<h1>" à "<p>" pour le texte de la citation -->
+							vérité.</p>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
 			</div>
 		</section>
-
 		<section id="services">
 			<h2 class="title">Mes services</h2>
-			<!-- Changement de <h3> à <h2> pour le titre -->
 			<div class="container">
 				<div class="service">
 					<div class="service__description">
@@ -255,7 +225,6 @@
 						<h4>350€/demi journée</h4>
 						<span>Matériel, déplacement inclus</span>
 					</div>
-
 				</div>
 				<div class="service">
 					<div class="service__description">
@@ -281,53 +250,43 @@
 				</div>
 			</div>
 		</section>
-
 		<section class="quote">
 			<figure>
 				<blockquote>
 					<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
-						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
-					<!-- Ajout de la balise "<p>" pour le texte de la citation -->
+						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie
+					</p>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</section>
-
 	</main>
-
 	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
 				<h2>Une question ? Une demande de devis ?</h2>
-				<!-- Changement de <h3> à <h2> pour le titre -->
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label for="nom">Nom</label> <!-- Ajout de l'attribut "for" pour le label -->
+					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
-					<label for="email">Email</label> <!-- Ajout de l'attribut "for" pour le label -->
+					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
-					<label for="message">Message</label> <!-- Ajout de l'attribut "for" pour le label -->
+					<label for="message">Message</label>
 					<textarea name="message" id="message" cols="30" rows="10"></textarea>
 					<input type="submit" value="Envoyer">
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="assets/images/camera-740px.webp" alt="Appareil photo" width="740" height="738" style="max-width: 100%; height: auto;" />
-				<!-- Ajout de l'attribut "alt" pour l'image de l'appareil photo -->
+				<img src="assets/images/camera-740px.webp" alt="Appareil photo" width="740" height="738"
+					style="max-width: 100%; height: auto;" />
 			</div>
 		</div>
 	</footer>
-	<!-- Ajout defer pour les scripts qui doivent attendre que le DOM soit complètement chargé et exécutés dans l'ordre -->
-	<!-- <script defer src="./assets/bootstrap/bootstrap.bundle.js"></script> -->
-	<!-- Lien vers le script JS minifié -->
 	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.min.js"></script>
-	<script defer src="./assets/scripts.min.js"></script>
-	<!-- <script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script> -->
-
+	<script defer src="./assets/script.min.js"></script>
 </body>
 
 </html>
